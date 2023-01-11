@@ -91,3 +91,13 @@ function rangeOfNumbers(startNum, endNum) {
 };
 
 console.log(rangeOfNumbers(1,5))
+
+/*Fibonacci number
+Create the function fibonacci that receives n and returns f(n). You have to use recursion.
+In fibonacci sequence each item is the sum of the previous two.
+*/
+function fibonacci( n)  {
+  if (n < 2) return n;
+
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
