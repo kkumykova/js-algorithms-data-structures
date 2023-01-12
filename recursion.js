@@ -101,3 +101,15 @@ function fibonacci( n)  {
 
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
+
+/* In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n.
+Write a function to calculate factorial for a given input: 5! = 5 * 4 * 3 * 2 * 1 = 120
+*/ 
+function factorial(n) {
+  if (n <= 1) {
+    return 1;
+  } else {
+    return factorial(n-1) * n;
+  }
+}
+
